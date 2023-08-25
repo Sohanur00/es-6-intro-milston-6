@@ -8,4 +8,10 @@ const arrayMax = Math.max(...numbers);
 console.log(arrayMax)
 
 // use spead oparetor to copy
-const num = [34,54,5,6,67,54,4]
+const friends = [34,54,5]
+const bondhu= friends;
+const dosto = [...friends]
+
+console.log(dosto)
+friends.push(100)
+console.log(friends)
